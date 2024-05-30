@@ -15,7 +15,7 @@ function Portfolio() {
         {portfolioProjectsData?.map((item, index) => (
           <div
             key={index}
-            className={`bg-${item.cardColor} w-full h-56 relative flex rounded-sm hover:shadow-md transition-all hover:shadow-primary`}
+            className={`bg-${item.cardColor} w-full h-56 relative flex rounded-sm hover:shadow-normal transition-all hover:shadow-primary`}
           >
             <div className="flex justify-center items-center flex-col h-full w-2/4">
               <p className="italic text-xs">{item?.projectLanguage}</p>

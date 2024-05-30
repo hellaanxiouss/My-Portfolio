@@ -2,32 +2,32 @@ export const portfolioProjectsData = [
   {
     projectName: "Bike Buddy",
     projectLanguage: "lealet, Bootstrap, JQuerry",
-    cardColor: "a",
+    cardColor: "1",
   },
   {
     projectName: "weather",
     projectLanguage: "JQuerry",
-    cardColor: "b",
+    cardColor: "2",
   },
   {
     projectName: "Team",
     projectLanguage: "JS, Node, Bootstrap",
-    cardColor: "c",
+    cardColor: "3",
   },
   {
     projectName: "Quiz",
     projectLanguage: "JS",
-    cardColor: "d",
+    cardColor: "4",
   },
   {
     projectName: "Generator",
     projectLanguage: "JS, Node",
-    cardColor: "e",
+    cardColor: "5",
   },
   {
     projectName: "Planner",
     projectLanguage: "JS, Bootsrap",
-    cardColor: "f",
+    cardColor: "6",
   },
 ];
 

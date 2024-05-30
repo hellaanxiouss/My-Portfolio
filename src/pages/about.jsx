@@ -7,7 +7,7 @@ import { information } from "../assets/data";
 
 function About() {
   return (
-    <div id="about" className="about px-10 h-full pt-10">
+    <div className="about px-10 h-full pt-10">
       <div className="mt-6">
         <p className="text-xs text-secondary">let me introduce myself</p>
         <h1 className="text-3xl font-bold underline decoration-primary underline-offset-8">
