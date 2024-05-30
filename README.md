@@ -1,6 +1,5 @@
 Here's the updated `README.md` including `react-hook-form` and the method to install it.
 
-````markdown
 # My Portfolio
 
 This is a personal portfolio website built with React and Vite. It showcases my projects, skills, and includes a contact page.
@@ -58,7 +57,6 @@ git clone git@github.com:hellaanxiouss/My-Portfolio.git
 # Using GitHub CLI
 gh repo clone hellaanxiouss/My-Portfolio
 ```
-````
 
 ### Install NPM packages
 
