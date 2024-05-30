@@ -157,7 +157,7 @@ My-Portfolio/
 Feel free to reach out if you have any questions or suggestions!
 
 - **Email**: tirthp.1128@icloud.com
-- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/tirthdhedhi)
+- **LinkedIn**: [Tirth Dhedhi](https://www.linkedin.com/in/tirthdhedhi)
 - **GitHub**: [hellaanxiouss](https://github.com/hellaanxiouss)
 
 ## License
