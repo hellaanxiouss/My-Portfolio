@@ -39,19 +39,10 @@ function Contact() {
           <p className="pb-2 font-bold">Message Me</p>
           <form
             onSubmit={handleSubmit(onSubmit)}
-            // onSuccess={() => {
-            //   alert("Your application is updated.");
-            // }}
-            // onError={() => {
-            //   alert("Submission has failed.");
-            // }}
           >
             <div className="grid md:grid-cols-2 md:gap-6">
               <div className="relative z-0 w-full mb-5 group">
                 <input
-                  // type="text"
-                  // name="name"
-                  // id="name"
                   className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-primary focus:outline-none focus:ring-0 focus:border-primary peer"
                   placeholder=" "
                   {...register("Name", {
@@ -80,9 +71,6 @@ function Contact() {
               </div>
               <div className="relative z-0 w-full mb-5 group">
                 <input
-                  // type="email"
-                  // name="email"
-                  // id="email"
                   className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-primary focus:outline-none focus:ring-0 focus:border-primary peer"
                   placeholder=" "
                   {...register("Email", {
@@ -112,9 +100,6 @@ function Contact() {
             </div>
             <div className="relative z-0 w-full mb-5 group">
               <input
-                // type="text"
-                // name="subject"
-                // id="subject"
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-primary focus:outline-none focus:ring-0 focus:border-primary peer"
                 placeholder=" "
                 {...register("Subject", {
@@ -144,9 +129,6 @@ function Contact() {
             </div>
             <div className="relative z-0 w-full mb-5 group">
               <textarea
-                // type="text"
-                // name="message"
-                // id="message"
                 rows={8}
                 className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-primary focus:outline-none focus:ring-0 focus:border-primary peer"
                 placeholder=" "

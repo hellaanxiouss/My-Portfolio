@@ -7,8 +7,7 @@ import { information } from "../assets/data";
 
 function About() {
   return (
-    <div className="about px-10 h-full pt-10">
-    {/* <div id="about" className="about px-10 h-full pt-10"> */}
+    <div id="about" className="about px-10 h-full pt-10">
       <div className="mt-6">
         <p className="text-xs text-secondary">let me introduce myself</p>
         <h1 className="text-3xl font-bold underline decoration-primary underline-offset-8">
@@ -25,16 +24,20 @@ function About() {
             Frontend Web Developer who creates amazing digital experiences!
           </h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In non
-            delectus quo dolorem voluptates error praesentium ipsum excepturi,
-            hic, vitae voluptatum impedit optio! Doloremque, voluptates
-            distinctio consequuntur, placeat nulla tenetur dolorum, eius odio
-            consectetur neque laboriosam! Cum corporis deleniti numquam.
+            As a passionate web development intern, I create engaging websites
+            with a focus on user experience using modern technologies like
+            React.js, TailwindCSS, and others. My strong foundation in front-end
+            development enables me to explore innovative solutions and stay
+            updated on the latest trends. My interest in AI drives me to blend
+            creativity with technology, delivering exceptional results that
+            exceed expectations.
           </p>
           <hr />
           {information?.map((item, index) => (
             <div key={index} className="grid grid-cols-2 gap-2">
-              <div>Name: {item?.fname} {item?.lname}</div>
+              <div>
+                Name: {item?.fname} {item?.lname}
+              </div>
               <div className="flex gap-2">
                 <div>Email:</div>
                 <div className="text-primary underline">
@@ -45,12 +48,6 @@ function About() {
               <div>Availability: {item?.availability}</div>
             </div>
           ))}
-          {/* <div className="grid grid-cols-2 gap-2">
-            <div>Name: Tirth Dhedhi</div>
-            <div>Email: tirthp.1128@icloud.com</div>
-            <div>Loaction: Mumbai</div>
-            <div>Availability: Open for work</div>
-          </div> */}
           <div className="flex justify-between pb-6 pt-4">
             <button
               type="button"

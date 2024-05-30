@@ -1,11 +1,8 @@
-// import { useState, useEffect } from "react";
-// import { useNavigate } from "react-router-dom";
 import { IoLogoGithub } from "react-icons/io5";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaDiscord } from "react-icons/fa6";
 import { information } from "../assets/data";
-// import homeData from "../home.json";
 import { TypeAnimation } from "react-type-animation";
 
 function Home() {
