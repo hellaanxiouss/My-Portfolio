@@ -12,23 +12,29 @@ function Portfolio() {
         </h1>
       </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6 py-12">
-        {portfolioProjectsData?.map((item, index) => (
-          <div
-            key={index}
-            className={`bg-${item.cardColor} w-full h-56 relative flex rounded-sm hover:shadow-normal transition-all hover:shadow-primary`}
-          >
-            <div className="flex justify-center items-center flex-col h-full w-2/4">
-              <p className="italic text-xs">{item?.projectLanguage}</p>
-              <h1 className="font-bold text-2xl">{item?.projectName}</h1>
-              <p className="flex justify-center items-center cursor-pointer hover:text-primary transition-all">
-                View Work &nbsp; <FaArrowRightLong />
-              </p>
+        {portfolioProjectsData?.map((item, index) => {
+          return (
+            <div
+              key={index}
+              onClick={() => {
+                console.log(`bg-${item.cardColor}`, "item");
+              }}
+              style={{ background: item?.cardColor }}
+              className="w-full h-56 relative flex rounded-sm hover:shadow-normal transition-all hover:shadow-primary"
+            >
+              <div className="flex justify-center items-center flex-col h-full w-2/4">
+                <p className="italic text-xs">{item?.projectLanguage}</p>
+                <h1 className="font-bold text-2xl">{item?.projectName}</h1>
+                <p className="flex justify-center items-center cursor-pointer hover:text-primary transition-all">
+                  View Work &nbsp; <FaArrowRightLong />
+                </p>
+              </div>
+              <div className="inset-0 flex justify-end items-center">
+                <img src={lpimg} alt="laptopimg" className="h-5/6" />
+              </div>
             </div>
-            <div className="inset-0 flex justify-end items-center">
-              <img src={lpimg} alt="laptopimg" className="h-5/6" />
-            </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
