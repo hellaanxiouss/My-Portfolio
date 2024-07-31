@@ -17,7 +17,7 @@ This is a personal portfolio website built with React and Vite. It showcases my 
 
 ## Demo
 
-You can check out the live demo of the portfolio [here](https://your-portfolio-url.com).
+You can check out the live demo of the portfolio [here](https://tirthdhedhi.netlify.app/).
 
 ## Features
 
